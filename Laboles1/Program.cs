@@ -15,11 +15,16 @@ namespace Laboles1
 
             if (Antw == "ja")
             {
-                Console.WriteLine("De datum is 27/09/2019");
+                DateTime datum = DateTime.Now;
+                
+                
+                Console.WriteLine(datum.Date);
+                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine("Oke sorry eh beast");
+                Console.ReadKey();
             }
         }
     }
